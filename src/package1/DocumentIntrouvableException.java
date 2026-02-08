@@ -1,5 +1,8 @@
 package package1;
 
-public class DocumentIntrouvableException {
-
+public class DocumentIntrouvableException extends Exception {
+	public DocumentIntrouvableException(String message) {
+		super(message);
+	}
 }
+
